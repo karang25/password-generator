@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 25px;
+    padding:top 20%;
+}
+button{
+    font-size: 1.5rem;
+    border: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(248, 127, 105);
+}
+button:active{
+    background-color: rgb(252, 159, 143);
+}
