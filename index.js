@@ -23,7 +23,7 @@ function generatePassword(passwordLength,includeLowercase,includeUppercase,inclu
     }
 
     for(let i=0;i<passwordLength;i++){
-        const randomIndex= Math.floor(Math.random()*allowedChars.length)+1;
+        const randomIndex= Math.floor(Math.random()*allowedChars.length);
         password+=allowedChars[randomIndex];
     }
 
